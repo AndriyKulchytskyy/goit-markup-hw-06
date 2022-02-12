@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --main-font: 'Roboto', sans-serif;
     --second-font: 'Raleway', sans-serif;
     --main-color: #212121;
@@ -17,7 +17,7 @@
     --header-border-color: #ECECEC;
 
     --project-item-gap: 30px;
-}
+} */
 /* ============================== PAGE_NAVIGATION ============================== */
 .header {
     border-bottom: 2px solid var(--header-border-color);
