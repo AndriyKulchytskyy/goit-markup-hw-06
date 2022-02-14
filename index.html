@@ -62,11 +62,17 @@
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
 
-                    <div class="modal-closebutton" data-modal-close>
+                    <!-- <div class="modal-closebutton" data-modal-close>
                         <svg class="icon-close">
                             <use href="./images/sprite.svg#icon-close"></use>
                         </svg>
-                    </div>
+                    </div> -->
+
+                    <button class="modal-closebutton" data-modal-close>
+                        <svg class="icon-close">
+                            <use href="./images/sprite.svg#icon-close"></use>
+                        </svg>
+                    </button>
 
                     <form class="form" method="GET" autocomplete="off">
                         <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
@@ -105,18 +111,17 @@
                                 <textarea name="comment" id="comment" placeholder="Введите текст"></textarea>
                              </li>
                             </ul>  
+                            
                         <div class="checkbox-field">
-
-
                             <input type="checkbox" class="checkbox visually-hidden" name="checkbox" id="checkbox" required>
                             <label for="checkbox" class="checkbox-label">
                                 Соглашаюсь с рассылкой и принимаю
-                                <a href="#" class="checkbox-link">Условия договора</a>
+                                <a href="#" class="checkbox-link link">Условия договора</a>
                                 <span class="custom-checkbox">
                                     <svg class="custom-checkbox-icon" width="12" height="11">
                                         <use href="./images/sprite.svg#icon-form-checked"></use>
                                     </svg>
-                                </span>
+                                </span>                                
                             </label>
                         </div>
 
@@ -438,7 +443,7 @@
     <!-- ============================== FOOTER ============================== -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
+            <!-- <div class="footer-content"> -->
                 <div class="footer-address">
                     <a class="logo-link link" href="./index.html"> <span class="logo-accent">Web</span>Studio</a>
                     <address class="adr">
@@ -507,7 +512,7 @@
                     </form>
                 </div>
                 
-            </div>
+            <!-- </div> -->
         </div>
     </footer>
 <!-- ============================== END FOOTER ============================== -->  

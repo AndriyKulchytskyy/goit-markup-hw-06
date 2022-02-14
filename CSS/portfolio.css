@@ -1,27 +1,4 @@
-/* :root {
-    --main-font: 'Roboto', sans-serif;
-    --second-font: 'Raleway', sans-serif;
-    --main-color: #212121;
-    --second-color: #757575;
-    --accent-color: #2196F3;
-    --bghero-color: #2F303A;
-    --hero-title-color: #FFFFFF;
-    --modal-btn-accent-color: #188CE8;
-    --thumb-bg-color: #f5f4fa;
-    --icon-socialmedia-color: #afb1b8;
-    --footer-bg-color: #2F303A;
-    --adr-contact-color: rgba(255, 255, 255, 60%);
-    --media-item-footer-bg-color: rgba(255, 255, 255, 0.1);
-    --logo-link-color: #000000;
-    --footer-logolink-color: white;
-    --header-border-color: #ECECEC;
-
-    --project-item-gap: 30px;
-} */
 /* ============================== PAGE_NAVIGATION ============================== */
-.header {
-    border-bottom: 2px solid var(--header-border-color);
-}
 
 .projects {
     padding-top: 94px;
