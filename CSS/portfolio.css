@@ -39,7 +39,6 @@
 
 .wiev-btn:hover,
 .wiev-btn:focus {
-    /* outline: none; */
     color: var(--hero-title-color);
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -48,7 +47,6 @@
 
 .wiev-btn-current {
     pointer-events: none;
-    outline: none;
     color: var(--hero-title-color);
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -86,8 +84,6 @@
 .projects-list-item-link:hover,
 .projects-list-item-link:focus {
     cursor: pointer;
-
-    outline: none;
 
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),

@@ -274,8 +274,8 @@ body{
 .advantages-item{
     width:270px;
 }
-.advantages-item:not(:last-child){
-    margin-right: 30px;
+.advantages-item:not(:first-child){
+    margin-left: 30px;
 
 }
 
@@ -415,7 +415,10 @@ body{
 
 .socialmedia-list {
     display: flex;
-    justify-content: space-between;
+}
+
+.socialmedia-item:not(:first-child){
+    margin-left: 10px;
 }
 
 .socialmedia-link {
@@ -458,7 +461,10 @@ body{
 
 .clients-list{
     display: flex;
-    justify-content: space-between;
+}
+
+.clients-logo:not(:first-child){
+    margin-left: 30px;
 }
 
 .clients-link{
